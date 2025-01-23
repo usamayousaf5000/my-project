@@ -17,7 +17,7 @@ export default function AutoSlider() {
         navigation={true}
         modules={[Navigation, Autoplay]}
         autoplay={{
-          delay: 1500, 
+          delay: 1000, 
           disableOnInteraction: false,
         }}
         className="flex justify-between items-center h-96 mb-7"

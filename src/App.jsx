@@ -1,18 +1,24 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Header'
-import Navbar from './Navbar'
-import Slider from './Slider'
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import LandingPage from './LandingPage'
+import MobileAndAccesories from './MobilePage'
+import MobilePage from './MobilePage'
+import SeeAll from './SeeAll'
 
 function App() {
 
   return (
     <>
-    <Header/>
-    <Navbar/>
-    <Slider/> 
-        </>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage/>}/>
+          <Route path="/mobileandaccesories" element={<MobilePage/>}/>
+          <Route path='/Seeall' element={<SeeAll/>}/>
+        </Routes>
+      </Router>
+    </>
   )
 }
 
