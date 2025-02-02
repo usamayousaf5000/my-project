@@ -3,7 +3,6 @@ import './App.css'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LandingPage from './LandingPage'
-import MobileAndAccesories from './MobilePage'
 import MobilePage from './MobilePage'
 import SeeAll from './SeeAll'
 

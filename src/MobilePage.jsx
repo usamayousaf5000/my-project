@@ -10,6 +10,7 @@ import Footer from './Footer'
 import BrandSlider from './BrandSlider'
 import CardSlider2 from './CardSlider2'
 import AutoSlider from './AutoSlider'
+import WomensFashion from './MenFashion'
 
 function MobilePage() {
   return (
@@ -23,7 +24,9 @@ function MobilePage() {
             <BrandSlider />
             <CardSlider1 />
             <AutoSlider />
+            <WomensFashion/>
             <CardSlider2 />
+            <WomensFashion/>
             <Footer />
     </>
   )

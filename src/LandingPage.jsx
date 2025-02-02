@@ -10,6 +10,7 @@ import Footer from './Footer'
 import BrandSlider from './BrandSlider'
 import CardSlider2 from './CardSlider2'
 import AutoSlider from './AutoSlider'
+import MenFashion from './MenFashion'
 
 const LandingPage = () => {
     return (
@@ -23,7 +24,10 @@ const LandingPage = () => {
             <BrandSlider />
             <CardSlider1 />
             <AutoSlider />
+            <MenFashion/>
             <CardSlider2 />
+            <MenFashion/>
+            <CardSlider />
             <Footer />
         </>
     )
